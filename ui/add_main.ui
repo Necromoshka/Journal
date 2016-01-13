@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mAdd</class>
+ <widget class="QWidget" name="mAdd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>917</width>
+    <height>548</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>917</width>
+    <height>548</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1125</width>
+    <height>743</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Add</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLineEdit" name="lne_num"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbl_num">
+         <property name="text">
+          <string>&amp;Number</string>
+         </property>
+         <property name="buddy">
+          <cstring>lne_num</cstring>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QDateEdit" name="dtw">
+         <property name="wrapping">
+          <bool>true</bool>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+         <property name="timeSpec">
+          <enum>Qt::LocalTime</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbl_dt">
+         <property name="text">
+          <string>&amp;Date</string>
+         </property>
+         <property name="buddy">
+          <cstring>dtw</cstring>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLineEdit" name="lne_regNum"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbl_regNum">
+         <property name="text">
+          <string>&amp;Reg_Num</string>
+         </property>
+         <property name="buddy">
+          <cstring>lne_regNum</cstring>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLineEdit" name="lne_oTu"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbl_oTu">
+         <property name="text">
+          <string>&amp;O_TU</string>
+         </property>
+         <property name="buddy">
+          <cstring>lne_oTu</cstring>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLineEdit" name="lne_NTU"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbl_nTu">
+         <property name="text">
+          <string>&amp;N_TU</string>
+         </property>
+         <property name="buddy">
+          <cstring>lne_NTU</cstring>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLineEdit" name="lne_RTU"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbl_razTu">
+         <property name="text">
+          <string>&amp;Razr_TU</string>
+         </property>
+         <property name="buddy">
+          <cstring>lne_RTU</cstring>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QLineEdit" name="lne_Prim"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbl_prim">
+         <property name="text">
+          <string>&amp;Prim</string>
+         </property>
+         <property name="buddy">
+          <cstring>lne_Prim</cstring>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <widget class="QPushButton" name="b_ok">
+         <property name="text">
+          <string>Ok</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="b_cancel">
+         <property name="text">
+          <string>Cancel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

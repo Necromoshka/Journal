@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/translate">
+        <file>Ru_ru.qm</file>
+    </qresource>
+    <qresource prefix="/splash">
+        <file>paint-29329_640.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+*.user
+.o
+*.user.*
+debug
+installer
+release
+Makefile*
+*.Debug
+*.Release
+.directory
+.svn
+
